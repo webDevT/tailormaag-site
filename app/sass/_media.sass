@@ -1,25 +1,296 @@
 @import "vars"
 
 /*==========  Desktop First  ==========*/
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
+	.main-screen.main-screen--client
+		background-size: 100%
+		background-repeat: no-repeat
+		min-height: 38vw
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1140px)
+	/**/
+	.contact-section__wrapper
+		max-width: 350px
+		padding-right: 20px
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
+	.articles-row
+		flex-direction: column
+	.articles-col-l
+		margin-left: 0
+	.favorite__item
+		padding-right: 0px
+	.contact-section .contact-img 
+		position: static
+		transform: translateY(0px)
+		margin-top: -125px
+	.contact-section__content
+		width: 100%
+	.contact-section__wrapper
+		max-width: 100%
+		border-right: none 
+		padding-right: 0
+	.contact-section__content
+		padding-bottom: 130px
+		padding-left: 0 
+		padding-right: 0
+		
+		margin: 0 auto
+	.contact-section
+		.container-fluid 
+			max-width: 100%
+			width: 100%
+	.contact-section__wrapper
+		max-width: 84.872vw
+		margin: 0 auto
+	.contact-img
+		max-width: 84.872vw
+		margin: 0 auto
+		display: flex 
+		justify-content: flex-end
+	.contact-section__call-to-action
+		padding-top: 0
+	.contact-section__call-to-action
+		max-width: 84.872vw
+		margin: 0 auto
+	.clients:before
+		width: 74%
+	.discover__content
+		flex-direction: column
+	.discover__text-content
+		padding-top: 26px 
+		padding-bottom: 26px
+	.discover-img
+		min-width: 100%
+	.discover__text
+		max-width: 100%
+	.discover__text-content
+		width: 90%
+		margin: 0 auto
+	.tags 
+		overflow: hidden
+
+
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	/**/
+	.header__menu-wrapper
+		display: none
+	.logo 
+		img 
+			width: 130px
+	.menu__btn 
+		display: block
+	.menu__row 
+		transition: all 0.3s
+	.menu__btn.active
+		.menu__row:last-child 
+			display: none
+		.menu__row:nth-child(2)
+			transform: rotate(45deg)
+		.menu__row:first-child 
+			transform: rotate(-45deg)
+			margin-bottom: 0
+			position: relative 
+			top: 3px
+	h1 
+		font-size: 40px
+		max-width: 326px
+		margin: 0 auto
+	.main-screen 
+		min-height: 757px
+		background: url('../img/main-bg-mobile.png')
+		background-size: cover 
+		background-repeat: no-repeat
+		.container-fluid 
+			max-width: 98%
+	.articles__item-theme
+		font-size: 14px
+	.articles__item h3
+		br 
+			display: none
+	h3 
+		font-size: 25px
+	.articles__item-content
+		width: calc(100% - 26px)
+	.article-item-text
+		font-size: 15px
+	.articles__item
+		margin-bottom: 10px
+	.articles-col-l
+		min-width: auto
+	.articles-col-s
+		.col-md-6:first-child 
+			order: 2 
+		.col-md-6:nth-child(2)
+			order: 1
+	.articles
+		padding-top: 30px
+		padding-bottom: 0
+	.header__menu-wrapper
+		position: absolute
+		top: 99%
+		background: #fff
+		left: 0
+		width: 100%
+		box-shadow: 0px 2px 4px #00000025
+		padding-bottom: 50px
+		padding-top: 20px
+	.header
+		position: relative
+		font-size: 20px
+	.menu-link
+		margin-right: 0
+		margin-bottom: 30px
+		display: block
+	.menu ul
+		flex-direction: column
+	.header__leng
+		padding-left: 0
+	.menu,
+	.header__leng
+		width: 84.872vw
+		margin: 0 auto
+		border-left: none
+	.item 
+		margin-bottom: 30px
+	.items-section
+		padding-bottom: 0
+	.favorite__item
+		min-height: 650px
+		background: url('../img/favorite-mobile.png')
+		background-size: cover
+		justify-content: center
+		align-items: flex-start
+		background-size: cover
+		padding-top: 70px
+
+	.favorite__content
+		width: 100%
+		height: auto
+	.favorite .container-fluid
+		max-width: 100%
+	.contact-img	
+		img 
+			width: 282px
+			max-width: 100%
+	.contact-section .container-fluid:before,
+	.contact-section .container-fluid:after 
+		width: 84.872vw
+		left: 50% 
+		transform: translateX(-50%)
+	.favorite .container-fluid
+		padding-bottom: 40px
+	.contact-section .container-fluid
+		padding-bottom: 37px 
+		margin-bottom: 37px
+		padding-top: 37px
+	.slider-logo-wrapper
+		width: 82px 
+		height: 82px 
+	.slider-item__img
+		padding: 5px
+	.slider 
+		margin-left: -5px
+	.clients:before
+		width: 100%
+	.clients .container-fluid
+		flex-direction: column
+		align-items: flex-start
+	.clients__buttons
+		align-self: flex-end
+		padding-top: 10px
+	.slider-wrapper
+		padding-top: 20px
+	.tags
+		padding-top: 79px
+		.container-fluid 
+			max-width: 100%
+	.tag-img-wrapper
+		height: auto
+	.tags__text-content
+		padding: 0 0
+		padding-top: 30px
+		max-width: 84.872vw
+		margin: 0 auto
+	.tags__content
+		padding: 0 0
+		padding-top: 30px
+		padding-bottom: 45px
+	.tags__content-wrap
+		max-width: 84.872vw
+		margin: 0 auto
+	.discover__title
+		font-size: 30px
+	.discover__text p
+		font-size: 14px
+	.instagram 
+		margin-bottom: 0
+		.container-fluid 
+			max-width: 100%
+	.footer-line
+		display: none
+	.footer 
+		.container-fluid 
+			flex-direction: column
+	.footer-menu
+		margin-top: 21px
+		a 
+			margin-left: 0 
+		a:last-child 
+			margin-left: 36px
+	.header--client
+		box-shadow: 0px 2px 4px #00000025
+		.container-fluid 
+			display: flex 
+			justify-content: space-between
+			align-items: center
+		.header__leng
+			width: auto 
+			margin-right: 0
+			margin-left: 0
+			padding-left: 0
+		.logo img
+			max-width: 42px
+	.center-logo
+		width: 70px
+
+
+
+
+
+
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	/**/		
+	.main-screen.main-screen--client
+		background: url('../img/clients-bg-mobile.png')
+		background-size: 100%
+		min-height: 170vw
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 380px)
 	/**/
+	.favorite__item
+		padding-top: 40px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 340px)
+	/**/
+	h1 
+		font-size: 38px
+	.favorite__item
+		padding-top: 20px
 
 
 /* Custom, iPhone Retina */

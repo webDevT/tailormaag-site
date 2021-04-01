@@ -1,0 +1,13 @@
+<svg id="Group_6" data-name="Group 6" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <circle id="Oval" cx="20.5" cy="20.5" r="20.5" fill="#34432d"/>
+  <g id="reception-bell" transform="translate(9 7)">
+    <path id="Shape" d="M.4,18.964a.4.4,0,0,1-.4-.4v-.79a1.187,1.187,0,0,1,1.188-1.185H9.632l.475-1.185H1.188a.4.4,0,0,1-.4-.4v-.79a1.185,1.185,0,0,1,.8-1.115,10.294,10.294,0,0,1,9.892-9.937v-.8h-.792a1.185,1.185,0,1,1,0-2.371h2.376a1.185,1.185,0,1,1,0,2.371h-.792v.8a10.294,10.294,0,0,1,9.892,9.937,1.185,1.185,0,0,1,.8,1.115v.79a.4.4,0,0,1-.4.4H13.653l.475,1.185h8.444a1.187,1.187,0,0,1,1.188,1.185v.79a.4.4,0,0,1-.4.4Z" transform="translate(0 3.472)" fill="#fff"/>
+    <path id="Path" d="M3.953,0A8.373,8.373,0,0,0,0,4.555l.726.252A7.615,7.615,0,0,1,4.32.666Z" transform="translate(3.78 9.348)" fill="#fff"/>
+    <path id="Path-2" data-name="Path" d="M.637,0A6.649,6.649,0,0,0,0,.229L.232.8A6.043,6.043,0,0,1,.81.593Z" transform="translate(8.37 8.547)" fill="#fff"/>
+    <rect id="Rectangle" width="0.81" height="2.137" transform="translate(11.61)" fill="#fff"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="2.16" height="0.801" transform="translate(6.75 4.006)" fill="#fff"/>
+    <path id="Rectangle-3" data-name="Rectangle" d="M.1,0l.79,0L.9,2.371l-.79,0Z" transform="translate(7.472 1.435) rotate(-45)" fill="#fff"/>
+    <path id="Rectangle-4" data-name="Rectangle" d="M0,.1,2.369.109l0,.79L0,.891Z" transform="translate(13.904 2.404) rotate(-45)" fill="#fff"/>
+    <rect id="Rectangle-5" data-name="Rectangle" width="2.16" height="0.801" transform="translate(14.85 4.006)" fill="#fff"/>
+  </g>
+</svg>
