@@ -1,0 +1,15 @@
+<svg id="icon_navigation_chevron_left_24px-2" data-name="icon/navigation/chevron_left_24px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="icon_navigation_chevron_left_24px" data-name="icon/navigation/chevron_left_24px" d="M13.585,2.585,11,0,0,11,11,22l2.585-2.585L5.188,11Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(15.208 11)">
+    <path id="icon_navigation_chevron_left_24px-3" data-name="icon/navigation/chevron_left_24px" d="M13.585,2.585,11,0,0,11,11,22l2.585-2.585L5.188,11Z" fill="none"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="↳ Color" transform="translate(-15.208 -11)">
+        <rect id="Rectangle" width="44" height="44" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

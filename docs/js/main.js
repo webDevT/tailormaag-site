@@ -88,7 +88,12 @@ $('.instagram__slider').slick({
   
 });
 
-
+$('.kiosk-slider').slick({
+  slidesToShow: 1,
+  prevArrow: $('.prev-btn'),
+  nextArrow: $('.next-btn'),
+  
+});
 // ---------end slider---------
 
 $(".articles__tab").click(function() { 
@@ -107,8 +112,6 @@ $('.gallery-slider').slick({
 });
 
 
-
-
 });
 
 
@@ -123,3 +126,11 @@ $('.page-menu-single').removeClass("sticky");
 });
 
 
+$('.more-photo').click(function() {
+  $(this).hide();
+  $('.video-section .col-md-3').slideDown();
+})
+
+$('.popup-close').click(function() {
+  $('.popup').fadeOut();
+})

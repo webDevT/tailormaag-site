@@ -8,12 +8,23 @@
 		background-size: 100%
 		background-repeat: no-repeat
 		min-height: 38vw
+	.notebook-contact__content
+		padding-left: 40px
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1140px)
 	/**/
 	.contact-section__wrapper
 		max-width: 350px
 		padding-right: 20px
+	.notebook-contact__image
+		width: 50%
+	.notebook-contact__content
+		width: 50%
+	.notebook-contact__row--green
+		a
+			margin-top: 22px
+
 
 
 /* Medium Devices, Desktops */
@@ -85,6 +96,65 @@
 		width: 50%
 	.social__content
 		width: 50%
+	.articles-section__header--notebook
+		flex-direction: column
+	.notebook-content-wrapper
+		flex-direction: column
+	.notemook-image
+		width: 100% 
+		order: 2
+	.notebook-about-content
+		width: 100% 
+		order: 1
+		padding-top: 40px 
+		padding-bottom: 30px
+	.notebook-about-content-text
+		max-width: 84.872vw
+	.notebook-about
+		padding-bottom: 20px
+		.container-fluid 
+			max-width: 100%
+	.notebook-contact__image
+		width: 100%
+	.notebook-contact__content
+		width: 100%
+		padding-left: 0
+		padding-top: 60px
+		justify-content: center
+		padding-bottom: 40px
+	.notebook-contact
+		flex-direction: column
+	.notebook__arrow
+		top: 0 
+		left: 50% 
+		transform: translateY(-50%) translateX(-50%)
+	.notebook-contact__content-wrapper
+		max-width: 84.872vw
+	.notebook-contact
+		padding-bottom: 30px
+		padding-top: 0
+	.kiosk-slider img
+		max-width: 65%
+	.kiosk-slider__wrapper
+		max-width: 100%
+	.popup__content
+		width: 100% 
+	.popup__img
+		display: none
+	.popup__content
+		max-width: 84.615vw
+		height: auto
+	.popup__wrapper
+		width: 100%
+		padding-left: 20px 
+		padding-right: 20px
+	.popup-form .button.button--green
+		margin: 0 auto
+
+
+
+
+
 
 
 	
@@ -441,6 +511,39 @@
 		transform: translateX(100%) translateY(-150%)
 	.gallery-next
 		transform: translateX(-100%) translateY(-150%)
+	.notebook-contact__row
+		a
+			margin-right: 10px 
+			img 
+				margin-right: 5px
+		a:last-child 
+			margin-right: 0
+	.notebook-only-contact
+		.container-fluid 
+			max-width: 100% 
+			flex-direction: column
+	.notebook-only-contact__img
+		width: 100%
+	.notebook-only-contact__content
+		width: 100%
+	.notebook-contact__row--green a:first-child
+		margin-bottom: 0
+	.notebook-contact__row--green
+		a
+			margin-top: 0px
+	.video-section
+		.col-md-3
+			display: none
+		.col-md-3:first-child,
+		.col-md-3:nth-child(2),
+		.col-md-3:nth-child(3),
+		.col-md-3:nth-child(4)
+			display: block
+	.only-section
+		padding-top: 0
+	.video-section
+		padding-bottom: 10px
+
 
 
 
@@ -472,7 +575,34 @@
 		padding-bottom: 0px
 	.single-article__text-content h2
 		font-size: 20px
+	.articles__tabs--notebook
+		justify-content: space-between
+		padding-top: 25px
+		margin-bottom: 0
+	.articles__tabs--notebook .articles__tab
+		width: 48% 
+		margin-right: 0 
+	.mobile-link 
+		font-size: 11px 
+		color: $text-color2
+		display: block 
+		text-align: center
+		text-decoration: underline
+		margin-bottom: 37px
+		padding-top: 15px
+	.notebook-contact__image
+		min-height: 400px
+	.notabook-contact__title
+		font-size: 30px
 
+	.notebook-contact__row--green a
+		margin-right: 5px
+		font-size: 12px
+		.notebook-contact__sub-title
+			font-size: 12px
+	.notebook-only-contact__content
+		p
+			font-size: 12px
 
 
 /* Extra Small Devices, Phones */
@@ -480,6 +610,11 @@
 	/**/
 	.favorite__item
 		padding-top: 40px
+	.notebook-contact__row
+		a
+			font-size: 11px
+
+
 
 
 /* Extra Small Devices, Phones */
@@ -489,6 +624,11 @@
 		font-size: 38px
 	.favorite__item
 		padding-top: 20px
+	.notebook-contact__row
+		a
+			font-size: 10px
+
+
 
 
 /* Custom, iPhone Retina */
