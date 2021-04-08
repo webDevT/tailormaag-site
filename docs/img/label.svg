@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-  <path id="icon_maps_local_offer_24px" data-name="icon/maps/local_offer_24px" d="M10.549,21.362l-9.9-9.9A2.2,2.2,0,0,1,0,9.9V2.2A2.206,2.206,0,0,1,2.2,0H9.9a2.186,2.186,0,0,1,1.551.638l9.9,9.9A2.221,2.221,0,0,1,22,12.1a2.148,2.148,0,0,1-.649,1.552l-7.7,7.7A2.148,2.148,0,0,1,12.1,22,2.185,2.185,0,0,1,10.549,21.362Z" fill="#34432d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_15" data-name="Group 15" transform="translate(0.5 0.5)">
+    <path id="Path" d="M21.351,10.538l-9.9-9.9A2.186,2.186,0,0,0,9.9,0H2.2A2.206,2.206,0,0,0,0,2.2V9.9a2.2,2.2,0,0,0,.649,1.562l9.9,9.9A2.186,2.186,0,0,0,12.1,22a2.151,2.151,0,0,0,1.551-.649l7.7-7.7A2.151,2.151,0,0,0,22,12.1,2.222,2.222,0,0,0,21.351,10.538Z" fill="#34432d" stroke="rgba(255,255,255,0.3)" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path-2" data-name="Path" d="M9.9,17.622,0,7.711V.011H7.7V0l9.9,9.9L9.9,17.622Z" transform="translate(2.199 2.189)" fill="#34432d" stroke="rgba(255,255,255,0.3)" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path-3" data-name="Path" d="M1.65,0A1.65,1.65,0,1,0,3.3,1.65,1.65,1.65,0,0,0,1.65,0Z" transform="translate(3.3 3.3)" fill="#34432d" stroke="rgba(255,255,255,0.3)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
 </svg>
+

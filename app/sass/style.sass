@@ -156,6 +156,8 @@ h3
 	width: calc(100% - 30px)
 	margin: 0 auto
 	padding: 9px 10px
+	box-shadow: 0px 2px 4px #00000025
+
 .articles__item-theme
 	background: $text-color
 	color: #fff
@@ -253,13 +255,13 @@ h3
 	width: 635px 
 	max-width: 100%
 	background: $text-color
-	padding: 55px 64px 48px 64px
+	padding: 55px 64px 48px 50px
 	color: #fff
 .contact-section__wrapper
 	height: 100%
 	border-right: 1px solid #fff
-	max-width: 406px
-	padding: 40px 50px 40px 0
+	max-width: 448px
+	padding: 40px 20px 40px 0
 	h2 
 		margin-bottom: 16px
 .contact-section__text
@@ -270,9 +272,10 @@ h3
 	position: absolute 
 	top: 0 
 	right: 0
-	transform: translateY(50px)
+	transform: translateY(65px)
 .contact-section__call-to-action
 	padding-top: 24px
+	padding-left: 65px
 	h2 
 		margin-bottom: 0
 .call-to-action__text
@@ -430,7 +433,7 @@ h3
 	background: #F8F2EF
 	padding-top: 50px 
 	padding-bottom: 65px
-	margin-bottom: 74px
+	margin-bottom: 25px
 	h2 
 		text-align: center
 .post-item
@@ -622,7 +625,7 @@ h3
 
 	.articles__item-content
 		background: $text-color2
-		padding: 28px 23px
+		padding: 22px 23px
 		color: #fff
 	.article-item__date
 		color: #fff
@@ -634,12 +637,12 @@ h3
 	.button--green
 		font-weight: 600
 		text-transform: none
-.articles__item:hover
-	.articles__item-content
-		background: $text-color2
-		color: #fff
-	.article-item__date
-		color: #fff
+// .article2:hover
+// 	.articles__item-content
+// 		background: $text-color2
+// 		color: #fff
+// 	.article-item__date
+// 		color: #fff
 
 //end contact section--green
 
@@ -788,12 +791,15 @@ h3
 	box-shadow: 0px 2px 24px #0309271A
 	transform: translateY(-3px)
 	background: #fff
+	box-shadow: 0px 2px 24px #0309271A
 	.page-menu__content
 		transform: translateY(0)
 		box-shadow: none
 .header--client-single-article.sticky 
-	box-shadow: none
+	//box-shadow: none
 //end articles style
+.header.header--client.header--client-single-article
+	box-shadow: 0px 2px 24px #0309271A
 
 //start single article style
 .single-article
@@ -812,7 +818,7 @@ h3
 	text-align: center
 	font-size: 12px 
 	color: #989898
-	padding-top: 26px
+	padding-top: 15px
 	padding-bottom: 42px
 .article-tag
 	height: 30px
@@ -1245,8 +1251,29 @@ h3
 	.button 
 		margin-bottom: 19px
 //end popup style
-
+.contact-section__call-to-action--client 
+	padding-left: 0
+	.button--green 
+		width: 114px
+.articles__img
+	max-height: 376.7px
+.footer-button 
+	.button 
+		width: 180px
+.notebook__item
+	.tag 
+		border-radius: 0
+.articles__item-content-notebook
+	box-shadow: none
+.notebook
+	.notebook__item
+		box-shadow: 0px 2px 4px #00000025
+.contact-section--article .container-fluid
+	margin-bottom: 25px
+.modal-window
+	display: none
 @import "media"
+
 
 
 
