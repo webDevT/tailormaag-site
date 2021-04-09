@@ -173,6 +173,7 @@ h3
 .articles-row
 	display: flex 
 	justify-content: space-between
+	align-items: flex-end
 .articles-col-l
 	min-width: 320px
 	margin-left: 35px
@@ -700,6 +701,10 @@ h3
 	.col-md-6,
 	.col-md-4 
 		margin-bottom: 20px
+	.articles__item.notebook__item
+		box-shadow: none
+		.articles__item-content 
+			box-shadow: none
 .notebook-title
 	font-family: $dm 
 	font-size: 60px
@@ -1272,6 +1277,29 @@ h3
 	margin-bottom: 25px
 .modal-window
 	display: none
+// .page-menu.sticky,
+// .page-menu-single.sticky
+// 	width: 100vw
+// 	.container-fluid 
+// 		width: 100%
+// 		max-width: 100%
+// .page-menu.page-menu-single.page-menu-article
+// 	box-shadow: none
+// 	.container-fluid
+// 		width: 945px
+// 		max-width: 84.872vw
+// 		box-shadow: 0px 2px 24px #0309271A
+.page-menu.sticky,
+.page-menu-single.sticky
+	box-shadow: 0px 2px 24px #0309271A
+	.container-fluid 
+		box-shadow: none
+	.page-menu__content 
+		box-shadow: none
+.articles__item-green 
+	.articles__item-content
+		background: $text-color2
+		color: #fff
 @import "media"
 
 
